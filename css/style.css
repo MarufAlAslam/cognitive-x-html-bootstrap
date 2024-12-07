@@ -1,0 +1,116 @@
+* {
+    font-family: "Poppins", serif;
+}
+
+header {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+header.home {
+    background-image: url("../img/banner.png");
+}
+
+header.work {
+    background-image: url("../img/work.png");
+}
+
+.nav-link.active,
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+
+.logo {
+    height: 40px;
+}
+
+.light {
+    width: 120px;
+}
+
+.bordered-btn {
+    border: 3px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bordered-btn:hover {
+    background-color: white;
+    color: #000;
+}
+
+.fs-1 .fa-chevron-down {
+    font-size: 60px;
+    color: white;
+    margin-top: 20px;
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+.homepage-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.icon-2 {
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.section-title {
+    font-size: 40px;
+
+}
+
+.invert {
+    filter: invert(1);
+    height: 100px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.contact-input {
+    background-color: rgb(233, 233, 233);
+    font-size: 20px;
+}
+
+.social-icon {
+    width: 40px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.tab-title span {
+    border-bottom: 3px solid transparent;
+}
+
+.tab-title.active span,
+.tab-title:hover span {
+    border-bottom: 3px solid #fff;
+}
+
+.gt {
+    height: 140px;
+}
+
+.gs {
+    filter: grayscale(1);
+}
+
+.fs-18 {
+    font-size: 18px;
+}
